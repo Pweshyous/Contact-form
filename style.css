@@ -1,0 +1,147 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(148, 38%, 91%);
+    margin-top: 4rem;
+    font-family: 'Karla';
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    height: 29rem;
+    width: 28rem;
+    border-radius: 5pt;
+}
+
+.contact {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 2rem;
+    font-size: 8pt;
+}
+
+.namecontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.first {
+    font-size: 9pt;
+    margin-left: 2rem;
+}
+
+.last {
+    font-size: 9pt;
+    margin-right: 9rem;
+}
+
+.boxcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstform {
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+
+.lastform {
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+}
+
+.Email {
+    font-size: 9pt;
+    margin-left: 2rem;
+}
+
+.emailform {
+    width: 22rem;
+    margin-left: 2rem;
+}
+
+.eform {
+    margin-top: 0.5rem;
+    width: 23.5rem;
+}
+
+.query {
+    font-size: 9pt;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.querycontainer {
+    margin-left: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.query1 {
+    margin-top: 0.5rem;
+}
+
+.query2 {
+    margin-top: 0.5rem;
+    margin-right: 2rem;
+}
+
+.msg {
+    font-size: 9pt;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.msgform {
+    width: 22rem;
+    margin-left: 2rem;
+}
+
+.mform {
+    margin-top: 0.5rem;
+    width: 23.5rem;
+    height: 3rem;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.consent {
+    font-size: 9pt;
+    margin-right: 10rem;
+    margin-top: 1.6rem;
+}
+
+.submit {
+    border-radius: 3pt;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    height: 22pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24rem;
+    background-color: hsl(169, 82%, 27%);
+}
+
+#submit {
+    font-size: 9pt;
+    color: white;
+    font-weight: bold;
+}
+
+.footer {
+    font-weight: bold;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 9pt;
+    color: rgb(2, 54, 20);
+}
